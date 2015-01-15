@@ -1,0 +1,5 @@
+<!-- For non-HTML5 browsers to display HTML5 unknown elements as inline -->
+section, article, aside, footer, header, nav, hgroup {
+  display:block;
+}
+

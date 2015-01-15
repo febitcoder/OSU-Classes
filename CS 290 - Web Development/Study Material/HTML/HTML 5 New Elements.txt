@@ -1,0 +1,12 @@
+*** HTML5 New Section Elements ***
+
+Merging several documents in HTML4 is hard: inclusion of a sub-document in a main document means changing the level of the HTML Headings Element so that the outline is kept. 
+
+This is solved in HTML5 as the newly introduced sectioning elements:
+
+<article>
+<section>
+<nav>
+<aside>
+
+These are always subsections of their nearest ancestor section, regardless of what sections are created by internal headings.

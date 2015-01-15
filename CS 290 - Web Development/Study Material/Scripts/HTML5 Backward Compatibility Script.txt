@@ -1,0 +1,27 @@
+<!-- Script to allow the support of the HTML5 section & heading elements in non-HTML5 browsers -->
+<!--[if lt IE 9]>
+  <script>
+    document.createElement("header" );
+    document.createElement("footer" );
+    document.createElement("section"); 
+    document.createElement("aside"  );
+    document.createElement("nav"    );
+    document.createElement("article"); 
+    document.createElement("hgroup" ); 
+    document.createElement("time"   );
+  </script>
+  <noscript>
+     <strong>Warning !</strong>
+     Because your browser does not support HTML5, some elements are simulated using JScript.
+     Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
+  </noscript>
+<![endif]-->
+
+__________________________________________________________________
+*** Add to CSS ***
+<!-- For non-HTML5 browsers to display HTML5 unknown elements as inline -->
+section, article, aside, footer, header, nav, hgroup {
+  display:block;
+}
+__________________________________________________________________
+

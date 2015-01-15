@@ -1,0 +1,10 @@
+All code must conform to the styling requirement on the following pages:
+
+HTML/CSS
+http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
+
+Javascript
+http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
+
+PHP 
+http://pear.php.net/manual/en/standards.php

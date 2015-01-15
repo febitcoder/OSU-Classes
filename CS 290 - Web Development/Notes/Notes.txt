@@ -1,0 +1,2 @@
+You should treat me as a client. I will give you a set of requirements. Requirements can be interpreted differently, this is unavoidable. You have to meet my interpretation of the requirements to get an A. If you have any doubt about what a requirement means, you should ask me to clarify.
+

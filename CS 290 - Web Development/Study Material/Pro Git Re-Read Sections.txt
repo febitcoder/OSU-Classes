@@ -1,0 +1,5 @@
+Pro Git Re-Read Sections: re-read the following sections, because they are excellent.
+
+3 STAGES - HEAD, MASTER, COMMIT
+Section 7.7
+

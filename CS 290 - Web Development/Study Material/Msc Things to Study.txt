@@ -1,0 +1,3 @@
+Msc Things to Study:
+
+Floats algorithm & the "Visual Formatting Model" on W3C (week 2, lec 2).
