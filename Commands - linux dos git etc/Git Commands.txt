@@ -1,0 +1,51 @@
+git init (start tracking everything in current directory)
+git add * .java (start tracking all java files)
+git add test.txt (start tracking test.txt)
+
+.gitignore (file with files to ignore for tracking. Must be in current repository folder)
+https://github.com//github/gitignore (URL for common ignore files to include in .gitignore)
+
+git status
+
+git clone <URL> (clones <what to clone> from .git repository) 
+git clone <directory\.git> <new directory name> (new directory created in current path)
+
+git add -<something>
+-A (adds all files)
+
+git commit -<something> 
+-m <"comment"> (include comment)
+
+git reset --hard HEAD~1 (delete commit HEAD is pointing to)
+
+git push <remote> <branch name> 
+git push (add committed to GitHub)
+git push --all (first time)
+git push origin <branch name> (push <branch name> to master branch. push = commit to master)
+
+git remote add <shortname> <url> (add a remote depository)
+
+git remote (see which remote servers you have configured)
+git remote -v (shows URLs)
+
+git branch <branch name> (create branch (branches are pointers to a commit))
+git checkout -b <branch name> (create branch and go to branch)
+git branch (shows all the branches you have)
+git branch <branch name> <sha1-of-commit> (create a branch off a previous commit) OR
+git branch <branch name> HEAD~3 (where HEAD~1 is what head is currently pointing to)
+
+git checkout <branch name> (change to branch)
+
+git merge <branch name> (merges <branch name> to current active branch)
+
+git branch -d <branch name> (deletes branch, but must me in head (master))
+
+git log --<something>
+--stat(use this one), --graph
+--pretty=oneline (display everything in 1 line)
+
+git log --graph --all --decorate (assignment 1 format)
+
+git show <sha-1> (shows which branch <sha-1> points to)
+git show <branch name> (shows which sha-1 <branch name> is pointed by)
+

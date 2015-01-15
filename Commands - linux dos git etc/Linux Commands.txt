@@ -1,0 +1,13 @@
+Create text file
+cat > <filename> (Then enter text, then Ctrl-D to save)
+
+Create directory
+mkdir <name>
+mkdir <name> && cd $_ (create directory and change into that directory)
+
+Remove directory
+rmdir <name> (directory must be empty)
+rm <name> -r (when directory is full)
+
+Remove file
+rm <name>

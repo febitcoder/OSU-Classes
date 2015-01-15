@@ -1,0 +1,8 @@
+Edit/Open file in notepad:
+notepad <filename>
+
+Clear screen
+cls
+
+Dir
+dir /w
